@@ -1,0 +1,187 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to top, #40a2f83d, #40a2f807);
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.logo {
+    font-size: 26px;
+    color: #40A3F8;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    transition: all 0.3s ease;
+    color: rgba(45, 184, 184, 0.799);
+}
+
+.tgthr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 40px;
+    padding: 10px 20px;
+    margin-right: 50px;
+}
+
+.btn {
+    transition: all 0.3s ease;
+    color: white;
+    background-color: #40A3F8;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.btn:hover {
+    transition: all 0.3s ease;
+    background-color: white;
+    color: #40A3F8;
+}
+
+.navitem {
+    transition: all 0.3s ease;
+    color: #2623237a;
+}
+
+.navitem:hover {
+    transition: all 0.3s ease;
+    color: #40A3F8;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.block-text {
+    width: 70%;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.search {
+    margin: 25px 0;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.input {
+    border: none;
+    padding: 15px 25px;
+    background-color: #f5f6faae;
+    border-radius: 10px;
+}
+
+#test {
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: #f5f6faae;
+    border: none;
+}
+
+.glass {
+    color: white;
+    background-color: #40A3F8;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+
+.block-right {
+    position: relative;
+    width: 50%;
+    height: 750px;
+
+    background-image: url("./Back image shape.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+.im {
+    position: absolute;
+}
+
+.i2 {
+    width: 120%;
+    bottom: 0;
+    left: 40%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.i3 {
+    width: 75px;
+    top: 12%;
+    left: 5%;
+    z-index: 2;
+}
+
+.i4 {
+    width: 75px;
+    top: 10%;
+    right: 3%;
+    z-index: 2;
+}
+
+.i5 {
+    width: 75px;
+    top: 45%;
+    left: 0;
+    z-index: 2;
+}
+
+.i6 {
+    width: 225px;
+    bottom: 12%;
+    left: 0;
+    z-index: 2;
+}
+
+.i7 {
+    width: 175px;
+    bottom: 25%;
+    right: 0;
+    z-index: 2;
+}
